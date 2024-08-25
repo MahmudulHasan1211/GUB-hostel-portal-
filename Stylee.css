@@ -1,0 +1,413 @@
+*{
+        margin: 0;
+        padding: 0;
+    
+}
+
+body{
+        height: 100vh;
+        width: 80%;
+        margin: auto;
+    
+}
+
+.container{
+        background-color: #F2F2F2;
+}
+
+.st{
+        background-color: aqua;
+}
+
+h1{
+        text-align: center;
+        font-size: 55px;
+        margin-bottom:15px;
+        margin-top:15px;
+        padding: 15px;
+    }
+
+#spain{
+        color: green;
+}
+
+.nav{
+        list-style-type:none;
+}
+
+#A1{
+        height:50px;
+        width:100%;
+        background-color:#089CC2;
+}
+
+#A1 ul{
+        margin-top: 0px;
+        padding-top: 0px;
+}
+
+#A1 ul li{
+        list-style: none;
+}
+
+#A1 ul li a{
+        text-decoration: none;
+        float:right ;
+        margin:20px;
+        cursor:pointer;
+        font-size: large;
+        color: white;
+}
+
+#A1 ul li a:hover{
+         color: yellow;
+}
+
+#news{
+        float:left;
+        height: 60px;
+        width:500px;
+        background-color: antiquewhite;
+}
+
+table{
+        height: 200px;
+        width: 660px;
+        border-collapse: collapse;
+        box-shadow: 2px 2px 15px;
+}
+
+td:nth-child(odd){
+         background-color: #9DB1EA ;
+}
+
+th{
+         background-color: yellow;
+}
+
+td:nth-child(even){
+        background-color:#CADCFC ;
+    
+}
+
+.center {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 44px;
+  }
+
+  footer {
+        margin-top: 2.5px;
+        text-align: center;
+        padding: 3px;
+        background-image: url(footer\ img.jpg);
+        color: white;
+        height: 60px;
+  }
+
+table, th, td,tr{
+        border:2px solid black;
+        text-align: center;
+        padding: 2px;
+        color: black;
+}
+
+#welcome{
+        text-align: center;
+        background-color: aqua;
+        font-size: large;
+        height: 50px;
+        padding-top: 15px;
+    
+}
+
+h1{
+        text-align: center;
+        margin: 0 auto; 
+        padding-bottom: 15px;
+}
+#new{
+        margin: auto;
+        height: 320px;
+        padding: 20px;
+        background-color: #F1F1F2;
+        box-shadow: 2px 2px 11px;
+        border-radius: 9px;
+        background-image: url(futuristic-background-design_23-2148503793.avif);
+        opacity: 0.9;
+}
+
+span{
+        margin: auto auto;
+        background-color: aliceblue;
+} 
+
+#hr2{
+        margin: 20px;
+}
+
+.button {
+        background-color: #04AA6D; /* Green */
+        border: 1px solid orange;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 6.5px;
+        cursor: pointer;
+        width: 100%;
+}
+
+.buttonAdmin{
+        background-color:seagreen; /* Green */
+        border: 1px solid orange;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 6.5px;
+        cursor: pointer;
+        width: 100%;
+        margin-top: 115px;
+}
+
+.fd{
+         margin: 20px;
+}
+
+#foodmenu1{
+        font-size:45px;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+        background-color:  #089CC2;
+        color: white;
+        text-shadow: 2px 2px 1px ;
+        
+        
+}
+
+    /*contact info*/
+    .contact-info {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .contact-info div {
+        text-align: center;
+    }
+
+    .contact-info div h4 {
+        margin-bottom: 10px;
+        color: #2575fc;
+    }
+
+    .contact-info div p {
+        margin: 5px 0;
+    }
+
+    /*form*/
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    form label {
+        font-weight: bold;
+    }
+
+    form input, form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    form textarea {
+        resize: vertical;
+        height: 150px;
+        grid-column: 1 / span 2;
+    }
+
+    form button {
+        background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background 0.3s;
+        grid-column: 1 / span 2;
+    }
+
+    section h2 {
+        margin-top: 0;
+        font-size: 2em;
+        color: blueviolet;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: relative;
+        /*text-decoration: underline;*/ 
+        margin-bottom: 44px;
+    }
+
+    section {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        padding: 20px;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        background-color: #F0F1F3;
+    }
+
+    section:hover {
+        transform: scale(1.02);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    form button:hover {
+        background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
+    }
+
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      /* Float four columns side by side */
+      .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+      }
+      
+      /* Remove extra left and right margins, due to padding */
+      .row {
+        
+        margin: 0 -5px;}
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive columns */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+      
+      /* Style the counter cards */
+      .card {
+        box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: center;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px;
+        
+      }
+
+      #firstp{
+        height: 235px;
+        width: 100%;
+        overflow: hidden;
+
+      }
+/* first three div*/
+      div.a {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        border: 3px solid yellowgreen;
+        font-family: 'Times New Roman', Times, serif;
+        background-image: url(hostel\ background.jpg);
+        margin-bottom: 30px;
+      }
+
+      div.a > img{
+        opacity: 0.1;
+      }
+      
+      div.b {
+        position: absolute;
+        right: 25px;
+        width: 450px;
+        height: 340px;
+      } 
+
+      div.c {
+        background-image: url(futuristic-background-design_23-2148503793.avif);
+        opacity: 0.9;
+        position: absolute;
+        right: 550px;  
+        width: 450px;
+        height: 325px;
+        border-radius: 10px;
+      } 
+#fl{
+        text-align: center;
+        font-size: 35px;
+        font-family:'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+        /* text-decoration: underline; */
+        text-shadow: 1px 1px 2px;
+        color:white;
+        background-color:#089CC2;
+        width: 1043px;
+        height: 60px;
+}
+
+#bod{
+   
+        margin: 0 auto;
+        background-color: #F5EDD9;
+}
+
+.Description{
+        background-color: #089CC2;
+        color: white;
+        border-radius: 4px;
+        margin-top: 10px;
+        
+}
+
+.facilitiesp{
+        text-align: center;
+        background-color:  #F4DB78;
+        border-radius: 10px;
+        
+}
+#contact{
+        background-color: #F4DB78;
+        margin-top: 40px;
+        
+}
+#seats{
+        height: 50px;
+        width: 100%;
+        background-color: #FAC95B;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-top: 17px;
+        padding-left: 50px;
+}

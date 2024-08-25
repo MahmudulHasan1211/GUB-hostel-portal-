@@ -1,0 +1,25 @@
+#new{
+    
+    margin: auto;
+    height: 320px;
+    width: 350px;
+    padding: 20px;
+    background-color: #F1F1F2;
+    box-shadow: 2px 2px 11px;
+    border-radius: 9px;
+    background-image: url(login.jpg);
+}
+.button {
+    background-color: #04AA6D; /* Green */
+    border: 1px solid orange;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 6.5px;
+    cursor: pointer;
+    width: 100%;
+}

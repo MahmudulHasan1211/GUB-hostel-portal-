@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="adminlogin.css">
+</head>
+<body>
+    <div id="login">
+        <div id="new">
+            <h2 style="text-align: center; color: white;">Admin Login</h2>
+            <hr id="hr2">
+            <form action="after_admin_login.php" method="post">
+                
+                <p style="color: white; font-size: 20px;">Username:  
+                    <input name="username" style="border-radius: 7px;" type="text" size="20" 
+                    placeholder="UserName" maxlength="15" required>
+                </p> 
+                <p style="color: white; font-size: 20px;">Password:   
+                    <input name="password" style="border-radius: 7px;" type="password" size="20" placeholder="Password" required>
+                </p> 
+                <input type="submit" name="submit" value="Login">
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

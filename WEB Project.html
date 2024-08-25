@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUB Hostel Portal</title>
+    <link rel="icon" type="image/x-icon" href="/gub.png">
+    <link rel="stylesheet" href="Stylee.css">
+</head>
+
+<body>
+    <div id="bod">
+        <div class="container">
+            <h1 id="head"><span id="spain">Green</span> University Hostel Portal</h1>
+            <hr>
+            <div id="A1">
+                <ul>
+                    <li><a href="#contact">| Contact Us |</a></li>
+                    <li><a href="#facilities">| Facilities |</a></li>
+                    <li><a href="#">| Pictures |</a></li>
+                    <li><a href="#Food">| Food Menu |</a></li>
+
+                    <body onload="startTime ()">
+                        <h4"> Current Time</h4>
+                            <div id="txt"></div>
+                </ul>
+            </div>
+        </div>
+        <p id="welcome">
+            <marquee> WELCOME TO GREEN UNIVERSITY HOSTEL PORTAL</marquee>
+        </p>
+        <div id="seats">
+            &nbsp; &nbsp; Total Rooms:32 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Total seats:71 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Available Seats:16 &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Available Rooms:09
+        </div>
+        <div class="a">
+            <p><b> &nbsp;&nbsp;&nbsp;&nbsp;</b></p>
+            <div class="b">
+                <div id="login">
+                    <div id="new">
+
+                        <form action="student_loin.php" method="POST">
+
+                            <!-- <h2 style="text-align: center; color: yellow;">Student Login</h2>
+                            <hr id="hr2">
+                            <p style="color: white; font-size: 20px;">
+
+                                Username:
+                                <input style="border-radius: 7px;" type="text" size="20" name="username"  id="usern" placeholder="Username" >
+                            </p>
+                            <p style="color: white; font-size: 20px;">
+                                Password:
+                                <input name="password" style="border-radius: 7px;" type="password" size="20" pattern="[A-Za-z0-9]{3,20}" id="passw" placeholder="Password" required>
+                            </p>
+                            <button name="login" class="button" id="loginButton">Login</button> -->
+                            <h>Student Login <br>
+                                username: <input type="text" name="username"><br><br>
+                                password: <input type="text" name="password"><br><br>
+                                <input type="submit" name="submit" value="Login">
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="c">
+                <a href="Admin login.html" target="_blank"><button class="buttonAdmin" id="loginButton">Admin
+                        Login</button></a>
+                <a href="Registration.html" target=”_blank”><button class="button" id="loginButton">New Student
+                        Registration</button></a>
+
+            </div>
+        </div>
+        <p id="foodmenu1">FOOD MENU</p>
+        <hr class="fd">
+        <div id="Food">
+
+            <table border="1" class="center">
+                <tr>
+
+                    <th>Day/Menu</th>
+                    <th>Breakfast <br> 7:00AM-9:30AM</th>
+                    <th>Lunch <br>1:00PM-3:30PM</th>
+                    <th>Dinner <br>8:30PM-11:00PM</th>
+                </tr>
+
+                <tr>
+                    <td> Saturday</td>
+                    <td>Rice <br>Smashed Potatoes <br>Dal</td>
+                    <td>Rice <br>Chicken</td>
+                    <td> Rice <br>Vegetable</td>
+                </tr>
+
+                <tr>
+                    <td>Sunday</td>
+                    <td>Bread <br>Egg</td>
+                    <td>Rice <br>Fish</td>
+                    <td>Rice <br> Chicken</td>
+                </tr>
+
+                <tr>
+                    <td>Monday</td>
+                    <td>khichuri</td>
+                    <td>Rice <br>chicken</td>
+                    <td>Rice <br>Vegetable</td>
+                </tr>
+
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Bread <br>Egg</td>
+                    <td>Rice <br>Fish</td>
+                    <td>Rice <br>Fish</td>
+                </tr>
+
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Rice <br>Pulse Vegetable</td>
+                    <td>Rice <br>Pulse Vegetable <br>chicken</td>
+                    <td>Bread <br>Egg </td>
+                </tr>
+
+                <tr>
+                    <td>Thursday</td>
+                    <td>Vegetable <br>khichuri</td>
+                    <td>Rice <br>Pulse Vegetable <br> Egg curry</td>
+                    <td>Rice<br> Fish curry</td>
+                </tr>
+
+                <tr>
+                    <td>Friday</td>
+                    <td>Khichuri</td>
+                    <td>Biriyani</td>
+                    <td>Rice <br>Pulse Vegetable <br>Fish curry</td>
+                </tr>
+            </table>
+            <hr class="fd">
+        </div>
+        <div class="row" id="facilities">
+            <h1 id="fl">FACILITIES</h1>
+
+            <div class="column">
+                <div class="card">
+
+                    <img id="firstp" src="camera.png" alt="">
+                    <h4 class="Description">Safety and Security</h4> <br>
+                    <p class="facilitiesp">24/7 security personnel at entrances and patrolling the premises.
+                        CCTV cameras in common areas, entrances, and exits.</p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img id="firstp" src="fitness.png" alt="">
+                    <h4 class="Description">Gym or Fitness Area</h4> <br>
+                    <p class="facilitiesp">Treadmills, stationary bikes, weights, and other fitness equipment.
+                        Yoga mats and space for stretching or group classes.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img id="firstp" src="Di2.jpeg" alt="">
+                    <h4 class="Description">Dining Area</h4> <br>
+                    <p class="facilitiesp">Tables and chairs for communal dining.
+                        Clean, well-maintained space & On-site cafeteria serving breakfast, lunch, and dinner.</p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img id="firstp" src="health.avif" alt="">
+                    <h4 class="Description">Health Services </h4> <br>
+                    <p class="facilitiesp">First aid kits in common areas and accessible locations.
+                        Information on nearby clinics, hospitals, and counseling services.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <section id="contact">
+            <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Contact Us</h2>
+            <form action="contact.php" method="post">
+                <!-- <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                    
+                    <button type="submit">Send</button> -->
+
+                Your Name : <input type="text" name="Name">
+                Your Email : <input type="text" name="Email">
+                Your Message : <input type="text" name="mass">
+                <input type="submit" name="" value="Send">
+            </form>
+            <div class="contact-info">
+                <div>
+                    <h4>Address</h4>
+                    <p>123 Hostel Street</p>
+                    <p>Kanchan,Dhaka</p>
+                </div>
+                <div>
+                    <h4>Phone</h4>
+                    <p>+8801941-717002</p>
+                </div>
+                <div>
+                    <h4>Email</h4>
+                    <p>gubhostelinfo@gmail.com</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="google-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.776018354179!2d90.55592389678957!3d23.826562500000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755cb6a3bca773f%3A0x617bd590d0658ecd!2sGreen%20University%20Student%20Hostel%20-%20A!5e0!3m2!1sen!2sbd!4v1717938408524!5m2!1sen!2sbd"
+                width="353" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.600180391949!2d90.55192389678956!3d23.832812499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755cb4111788fbf%3A0x26ca385333bb741e!2sGreen%20University%20Student%20Hostel%20-%20B!5e0!3m2!1sen!2sbd!4v1717938456970!5m2!1sen!2sbd"
+                width="363" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d553.1241581843082!2d90.55648454938702!3d23.831012739505844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755cbf809284aad%3A0x625f484e6d448da5!2sGreen%20University%20Student%20Hostel%20-%20C!5e0!3m2!1sen!2sbd!4v1717937746708!5m2!1sen!2sbd"
+                width="353" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <footer>
+            <p style="padding-top: 10px;">© 2003-2024 <a href="#head" style="color:yellow"">Green University Hostel Portal</a> . All Rights Reserved.<br>
+            Developed By: <a href=" mailto:221902172@student.green.edu.bd" style="color:yellow">Mahmudul</a> & <a
+                    href="mailto:221902125@student.green.edu.bd" style="color: yellow;">Israil</a> &trade; </p>
+            <img src="" alt="">
+        </footer>
+    </div>
+    </div>
+    <script src="JAVA.js"></script>
+</body>
+
+</html>
+<?php
+?>
